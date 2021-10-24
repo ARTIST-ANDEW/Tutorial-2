@@ -2,7 +2,9 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CemeraScript
+    - EnemyScript
     - PlayerScript
+    - audiosource
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -11,7 +13,6 @@ ScriptsOnlyBuild:
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
@@ -21,6 +22,12 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -52,7 +59,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -61,19 +78,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1714}
     - Class: 114
-      Script: {instanceID: 2202}
+      Script: {instanceID: 1820}
     - Class: 114
-      Script: {instanceID: 2314}
+      Script: {instanceID: 2204}
     - Class: 114
-      Script: {instanceID: 2618}
+      Script: {instanceID: 2316}
     - Class: 114
-      Script: {instanceID: 2778}
+      Script: {instanceID: 2620}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2780}
     - Class: 114
-      Script: {instanceID: 3238}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 21614}
+      Script: {instanceID: 3240}
+    - Class: 114
+      Script: {instanceID: 3824}
+    - Class: 114
+      Script: {instanceID: 3962}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -187,6 +208,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CemeraScript
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -217,7 +244,7 @@ ScriptsOnlyBuild:
     className: CinemachinePixelPerfect
   - hash:
       serializedVersion: 2
-      Hash: 22567af4eef6fdc302e6b61aa9201717
+      Hash: 28242dc675641663b4aa1d56e6698662
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerScript
@@ -409,6 +436,12 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: f7793983298021d123f1d3c854e6ebac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: audiosource
+  - hash:
+      serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -437,6 +470,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 977a1861a44ea8dc8a0f2451ea7179c6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyScript
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -623,14 +662,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 66bca5cc6a18c5298ec75235e56a84d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CemeraScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Andrew/Desktop/Homework/DIG 3480/Sisk_Andrew_DIG3480_Tutorial2/Tutorial
-    2.exe
+  playerPath: C:/Users/Andrew/Desktop/Homework/DIG 3480/Challenge 2/Tutorial 2.exe
